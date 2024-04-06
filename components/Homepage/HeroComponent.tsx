@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function HeroComponent() {
   return (
-    <div className="relative text-center py-8">
+    <div className="relative text-center py-8"style={{ backgroundImage: "url('./background.png')" }}>
       <div className="font-bold text-6xl py-8 pb-12">Discover Trusted Workers, Hire Today.</div>
       <div className="relative flex justify-center overflow-hidden">
 

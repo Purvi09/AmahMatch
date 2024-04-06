@@ -15,8 +15,8 @@ Message: ${message}
 
     // no preview is available in email
     const emailOptions = {
-        to: "ashish@amahmatch.com", // Admin email address
-        from: "contact@amahmatch.com",
+        to: "info@amahmatch.com", // Admin email address
+        from: "purvigandhi2002@gmail.com",
         subject: "New Contact Us Message",
         text: emailTemplate,
     };

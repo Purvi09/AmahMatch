@@ -18,7 +18,7 @@ export default function Services() {
             <CardRight title="House Cleaning" content="Our platform ensures effortless booking, so you can enjoy a clean and comfortable home without the hassle. Trust us to match you with experienced professionals dedicated to exceeding your cleanliness expectations. Experience convenience and reliability with Amahmatch for a pristine living space every time." image="./final1.png"></CardRight>
             </div>
             <div id="office">
-            <CardLeft title="Office Cleaning" content="With Amahmatch, you can trust in a sparkling workspace, enhancing productivity and professionalism. Experience the convenience of effortless booking and impeccable cleaning results with Amahmatch for your office space." image="./final2.png"></CardLeft>
+            <CardLeft title="Office Cleaning" content="With Amahmatch, you can trust in a sparkling workspace, enhancing productivity and professionalism. Experience the convenience of effortless booking and impeccable cleaning results with Amahmatch for your office space." image="./officecleaning.png"></CardLeft>
             </div>
             <div id="toilet">
             <CardRight title="Washroom Cleaning" content="We specialise in ensuring every corner of your home, including the washroom, is impeccably cleaned. Our dedicated team of professionals employs advanced techniques and eco-friendly products to guarantee a sparkling clean and sanitised environment. Experience the convenience and peace of mind with our hassle-free online booking for top-tier washroom cleaning services." image="./final3.png"></CardRight>

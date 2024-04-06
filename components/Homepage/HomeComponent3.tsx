@@ -3,7 +3,7 @@ import Card from "../Card";
 
 export default function HomeComponent3() {
     return (
-      <div className="bg-bgPurple ">
+      <div className="bg-bgPurple" style={{ backgroundImage: "url('./background2.png')" }}>
         <div className="flex p-12 mx-16">
           <div className="w-1/2 leading-16 text-6xl font-semibold">Always Provide The Best Service</div>
           <div className="w-1/2 ml-14">
@@ -14,7 +14,7 @@ export default function HomeComponent3() {
           </div>
         </div>
         <div className="flex py-20 px-20">
-        <div className="bg-white">
+        <div className="">
         <Card title="House Cleaning" icon="./Home.png" content="Transforming homes with unparalleled cleanliness and convenience."id="house"></Card>
         </div>
         <Card title="Office Cleaning" icon="./office.png" content="Experience unparalleled convenience and cleanliness with our premier office cleaning services."id="office"></Card>

@@ -13,7 +13,7 @@ export default function Component1(){
                 <div className="text-gray-500">Welcome to Amahmatch, the leading platform for booking workers services online. At Amahmatch, we understand the importance of having a clean and comfortable home, but we also know how challenging it can be to find reliable and trustworthy help. That's why we created Amahmatch - to make booking maid services easy, convenient, and stress-free. </div>
                 <div className="flex justify-between space-x-2 mt-8">
                     
-                    <Link href="/aboutUs" className="bg-textPurple p-2 px-14 text-xl rounded text-white mx-2 w-1/2 font-light">Connect with us</Link>
+                    <Link href="/contactUs" className="bg-textPurple p-2 px-14 text-xl rounded text-white mx-2 w-1/2 font-light">Connect with us</Link>
                     <Link href="/services"
                     className="bg-gray-100 p-2 px-14 text-xl rounded w-1/2 font-light">Services</Link>
                 </div>

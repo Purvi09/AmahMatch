@@ -10,7 +10,7 @@ export default function aboutUs(){
         <Navbar></Navbar>
         <HeadingAbout></HeadingAbout>
         <Component1></Component1>
-        <div className="bg-bgPurple rounded-lg">
+        <div className="bg-bgPurple rounded-lg"style={{ backgroundImage:"url('./background3.png')"}}>
             <div className="text-4xl flex justify-center pt-16 font-semibold">Why Choose AmahMatch?</div>
         <div className="flex p-8 m-6">
         <CardAbout title="Trusted Professionals" content="We carefully vet and screen all maids on our platform to ensure they meet our strict standards for professionalism, reliability, and integrity. You can trust that the workers you book through us are experienced, background-checked, and committed to providing exceptional service."></CardAbout>

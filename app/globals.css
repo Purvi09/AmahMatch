@@ -81,6 +81,17 @@ swiper-slide:nth-child(5) {
   width: 50%; 
 }
 
+.hover\:underline-custom:hover {
+  
+  font-weight: bold;
+  font-size: 110%;
+  padding-bottom: 2px; /* Adjust the padding as needed */
+  color: #8F264F; /* Adjust the color as needed */
+}
+.hover\:bg-sky-700:hover {
+  background-color: #0369a1;
+}
+
 @keyframes marquee {
   0% {
       transform: translateX(0%);

@@ -1,8 +1,18 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
+
+function isActiveClasses(pathname: string, currentRoute: string) {
+  if ((pathname.includes(currentRoute) && currentRoute.length > 1) || pathname === currentRoute) {
+    return "font-bold text-xl";
+  }else{
+    return "hover:font-bold";
+  }
+}
 
 export default function Navbar() {
   const router = useRouter();
+  const pathname = usePathname();
 
   const handleRouteClick = (destination:string) => {
     router.push(destination);
@@ -15,11 +25,11 @@ export default function Navbar() {
           <img src="./logo.png" className="h-12" alt="Logo" />
         </a>
         <div className="flex space-x-6 mt-2 text-lg font-medium">
-        <button onClick={() => handleRouteClick("/")}>Home</button>
-          <button onClick={() => handleRouteClick("/services")}>Our Services</button>
-          <button onClick={() => handleRouteClick("/aboutUs")}>About Us</button>
-          <button onClick={() => handleRouteClick("/works")}>How it works</button>
-          <button onClick={() => handleRouteClick("/contactUs")}>Contact Us</button>
+          <button onClick={() => handleRouteClick("/")} className={isActiveClasses(pathname, "/")}>Home</button>
+          <button onClick={() => handleRouteClick("/services")} className={isActiveClasses(pathname, "/services")}>Our Services</button>
+          <button onClick={() => handleRouteClick("/aboutUs")} className={isActiveClasses(pathname, "/aboutUs")}>About Us</button>
+          <button onClick={() => handleRouteClick("/works")} className={isActiveClasses(pathname, "/works")}>How it works</button>
+          <button onClick={() => handleRouteClick("/contactUs")} className={isActiveClasses(pathname, "/contactUs")}>Contact Us</button>
           {/* Add more buttons with different routes as needed */}
         </div>
       </div>
