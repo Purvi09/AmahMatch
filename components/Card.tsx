@@ -11,13 +11,15 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ id, title, icon, content }) => {
   return (
     <Link href={`services/#${id}`}>
-      <div className="w-80 h-72 pl-14 pb-10 pr-2 hover:bg-white">
-        <div className="ml-20 py-6">
+      <div className="w-80 h-72 pb-10 hover:bg-white mx-auto flex flex-col items-center">
+        <div className="py-6">
           <img src={icon} alt={title} className="w-12 h-12 text-center" />
         </div>
   
-        <div className="text-2xl font-semibold py-6">{title}</div>
-        <div>{content}</div>
+        <div className="text-2xl font-semibold py-6 text-center">{title}</div>
+        
+        {/* Center the content horizontally */}
+        <div className='text-center md:w-3/4'>{content}</div>
       </div>
     </Link>
   );

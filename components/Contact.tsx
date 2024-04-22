@@ -65,12 +65,12 @@ export default function Contact() {
   };
 
   return (
-    <div className="grid place-items-center">
+    <div className="mt-40 grid place-items-center">
       <div className="font-bold text-4xl p-10 text-textPurple">Get in Touch</div>
-      <div className="text-textPurple pb-10 w-3/4 text-center"> Run your advertisements or promotions etc over our mobile app used by millions of gig workers, white color people and businesses. Absolute confidentiality and same-day replies are our promise to you!</div>
+      <div className="text-textPurple pb-10 w-3/4 text-center text-sm md:text-lg"> Run your advertisements or promotions etc over our mobile app used by millions of gig workers, white color people and businesses. Absolute confidentiality and same-day replies are our promise to you!</div>
       
-      <div className="flex justify-center space-x-8">
-      <div className="w-1/2 ml-16">
+      <div className="md:flex justify-center space-x-8">
+      <div className="md:w-1/2 md:ml-16">
 
       {success && <p className="text-green-500 p-4">{success}</p>}
       {error && <p className="text-red-500 p-4">{error}</p>}
@@ -118,7 +118,7 @@ export default function Contact() {
       </div>
       <button className="bg-textPurple border-2 rounded w-full p-2 text-xl rounded-lg text-white mb-16 p-6" type="submit" onClick={handleSubmit(onSubmit)}>Send Message</button>
       </div>
-      <img src="./contact.png" className="h-1/2 w-1/2"></img>
+      <img src="./contact.png" className=" md:h-1/2 md:w-1/2 mb-4"></img>
       </div>
       
     </div>

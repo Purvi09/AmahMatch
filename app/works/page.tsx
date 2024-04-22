@@ -9,7 +9,7 @@ export default function MyComponent() {
             <Component1Works />
             <div className="relative flex justify-center">
                 <img src="./Works.png" className="mb-8"></img>
-                <img src="./tick.gif" className="absolute bottom-36 left-60 h-80 w-80"></img>
+                <img src="./tick.gif" className="hidden md:block md:absolute bottom-36 left-60 h-80 w-80"></img>
             </div>
             <Footer />
         </div>

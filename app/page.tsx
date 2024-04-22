@@ -4,7 +4,7 @@ import HomeComponent2 from "@/components/Homepage/HomeComponent2";
 import HomeComponent3 from "@/components/Homepage/HomeComponent3";
 import HomeComponent4 from "@/components/Homepage/HomeComponent4";
 import HomeComponent5 from "@/components/Homepage/HomeComponent5";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar"
 import { register } from 'swiper/element/bundle';
 
 export default function Home() {

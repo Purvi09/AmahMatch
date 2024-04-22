@@ -1,7 +1,9 @@
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 const Carousel = () => {
   return (
-    <swiper-container slides-per-view="4" spaceBetween={10} autoplay="true" data-swiper-autoplay="1000" loop="true" speed={5000} effect="slide">
+    
+    <swiper-container slides-per-view="4" spaceBetween={10} autoplay-delay="50" loop="true" speed={5000} effect="slide" navigation="true" pagination="true">
       <swiper-slide><img src="./1.png" alt=""className=""></img></swiper-slide>
         <swiper-slide><img src="./2.png" alt=""className=""/></swiper-slide>
         <swiper-slide><img src="./3.png" alt=""className=""/></swiper-slide>
@@ -13,6 +15,8 @@ const Carousel = () => {
         {/* <swiper-slide><img src="./image35.png" alt=""className="h-96 w-96"/></swiper-slide>
         <swiper-slide><img src="./image36.png" alt=""className="h-96 w-96"/></swiper-slide> */}
     </swiper-container>
+   
+    
   )
 }
 

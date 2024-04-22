@@ -3,8 +3,8 @@ import React from 'react';
 
 export default function HeroComponent() {
   return (
-    <div className="relative text-center py-8"style={{ backgroundImage: "url('./background.png')" }}>
-      <div className="font-bold text-6xl py-8 pb-12">Discover Trusted Workers, Hire Today.</div>
+    <div className="mt-40 text-center py-8"style={{ backgroundImage: "url('./background.png')" }}>
+      <div className="font-bold md:text-6xl py-8 pb-12 text-3xl">Discover Trusted Workers, Hire Today.</div>
       <div className="relative flex justify-center overflow-hidden">
 
         {/* Marquee Animation */}
@@ -16,11 +16,11 @@ export default function HeroComponent() {
         </div>
 
         {/* Maid image */}
-        <img src="./maid.png" alt="Maid" height={430} width={430} className="relative z-40" />
+        <img src="./maid.png" alt="Maid" className="relative z-40 h-96 md:h-full" />
 
         {/* Gradient overlay */}
         <Link href="/contactUs">
-        <button className="text-white absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-textPurple p-4 mb-4 mr-2 rounded-xl z-50 text-xl">Connect with us</button>
+        <button className="text-white absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-textPurple p-4 mb-4 mr-2 rounded-xl z-40 md:text-xl">Connect with us</button>
         </Link>
         <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-b from-transparent to-gradientPurple z-10"></div>
       </div>

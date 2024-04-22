@@ -8,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      transitionTimingFunction: {
+        'linear': 'linear',
+      },
       colors: {
         bgPurple: '#DBB1BB',
         textPurple: '#8F264F',
