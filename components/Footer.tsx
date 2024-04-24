@@ -58,13 +58,13 @@ export default function Footer() {
             <div className="md:ml-10 ml-4">Terms and Conditions</div>
           </Link>
           <a href="https://www.instagram.com">
-            <img src="./insta1.png" className="md:ml-10 ml-4 h-6 w-6" alt="Instagram" />
+            <img src="./insta1.png" className="md:ml-10 ml-4 md:h-6 md:w-6 h-3 w-3" alt="Instagram" />
           </a>
           <a href="https://www.linkedin.com/company/amahmatch/">
-            <img src="./LinkedIn1.png" className="ml-4 h-6 w-6" alt="LinkedIn" />
+            <img src="./LinkedIn1.png" className="ml-4 md:h-6 md:w-6 h-3 w-3" alt="LinkedIn" />
           </a>
           <a href="https://twitter.com">
-            <img src="./twitter1.png" className="ml-4 h-6 w-6" alt="Twitter" />
+            <img src="./twitter1.png" className="ml-4 md:h-6 md:w-6 h-3 w-3" alt="Twitter" />
           </a>
 
         </div>

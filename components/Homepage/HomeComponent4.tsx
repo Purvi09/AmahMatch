@@ -21,7 +21,7 @@ export default function HomeComponent4() {
           </div>
           <div className="mt-8"> {/* Add top margin to create space */}
             <Link
-              href="/aboutUs"
+              href="/aboutUs/#aboutmore"
               className="bg-textPurple text-white md:p-4 p-2 text-sm md:text-lg"
             >
               Read more

@@ -1,7 +1,9 @@
 import CardAbout from "@/components/AboutUs/CardAbout";
 import Component1 from "@/components/AboutUs/Component1";
 import ComponentLast from "@/components/AboutUs/ComponentLast";
+import Faq from "@/components/AboutUs/Faq";
 import HeadingAbout from "@/components/AboutUs/HeadingAbout";
+import { Last } from "@/components/AboutUs/Last";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
@@ -21,6 +23,8 @@ export default function aboutUs(){
         <CardAbout title="Flexible Scheduling" content="We understand that every household has different needs and schedules. That's why we offer flexible scheduling options, allowing you to book one-time or recurring appointments based on your availability."></CardAbout>
         </div>
         </div>
+        <Last></Last>
+        <Faq></Faq>
         <ComponentLast></ComponentLast>
         <Footer></Footer>
     </div>)
