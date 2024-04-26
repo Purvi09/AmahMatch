@@ -5,9 +5,9 @@ import { usePathname } from "next/navigation";
 
 function isActiveClasses(pathname: string, currentRoute: string) {
   if ((pathname.includes(currentRoute) && currentRoute.length > 1) || pathname === currentRoute) {
-    return "font-bold md:text-xl text-xs";
+    return "font-bold md:text-xl text-[10px]";
   }else{
-    return "hover:font-bold text-xs md:text-xl";
+    return "hover:font-bold text-[10px] md:text-xl";
   }
 }
 

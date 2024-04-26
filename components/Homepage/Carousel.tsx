@@ -2,7 +2,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import AutoScroll from 'embla-carousel-auto-scroll'
 
 const Carousel = () => {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [AutoScroll({speed:3})])
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [AutoScroll({speed:4,stopOnInteraction:false})])
 
   return (
     <div className="embla" ref={emblaRef}>
