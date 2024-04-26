@@ -1,4 +1,4 @@
-export default function(){
+export default function Privacy(){
     return <div className="m-10">
         <div className="flex justify center text-lg font-bold pb-10">Privacy Policy</div>
         <div className="">AmahMatch.com ("we," "us," or "our") is committed to protecting the privacy of individuals who visit our website, use our mobile applications, or otherwise interact with our services. This Privacy Policy outlines how we collect, use, and safeguard personal information when you access our platform for hiring workers in real-time. </div>

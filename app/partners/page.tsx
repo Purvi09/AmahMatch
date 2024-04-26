@@ -5,7 +5,7 @@ import Comp2 from "@/components/partners/Comp2";
 import { Comp3 } from "@/components/partners/Comp3";
 import Comp4 from "@/components/partners/Comp4";
 
-export default function(){
+export default function Partners(){
     return <div>
         <Navbar></Navbar>
         <Comp1></Comp1>
