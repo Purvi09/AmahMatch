@@ -25,7 +25,7 @@ export default function Navbar() {
         <a href="/" className="flex items-center">
           <img src="./logo.png" className="md:h-12 h-8 pr-2" alt="Logo" />
         </a>
-        <div className="hidden md:block flex md:space-x-6 mt-2 md:text-lg md:font-medium text-xs">
+        <div className="block flex md:space-x-6 mt-2 md:text-lg md:font-medium text-xs">
           <button onClick={() => handleRouteClick("/")} className={isActiveClasses(pathname, "/")}>Home</button>
           <button onClick={() => handleRouteClick("/aboutUs")} className={isActiveClasses(pathname, "/aboutUs")}>About Us</button>
           <button onClick={() => handleRouteClick("/services")} className={isActiveClasses(pathname, "/services")}>Our Services</button>
@@ -34,7 +34,7 @@ export default function Navbar() {
           <button onClick={() => handleRouteClick("/contactUs")} className={isActiveClasses(pathname, "/contactUs")}>Contact Us</button>
           {/* Add more buttons with different routes as needed */}
         </div>
-        <button className="block md:hidden text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border">
+        <button className="hidden text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border">
           <Menu />
         </button>
       </div>
