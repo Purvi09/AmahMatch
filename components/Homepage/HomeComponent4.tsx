@@ -4,7 +4,7 @@ export default function HomeComponent4() {
   return (
     <div>
       <div className="flex justify-between items-center">
-        <img src="./img.png" className="md:h-100 h-60 w-20 md:w-60" />
+        <img src="./img.png" className="h-100 w-60 max-lg:hidden"/>
         <div className="text-center justify-center md:p-10 mt-8">
           <div className="md:text-6xl font-bold md:mt-20 md:p-6">
             Why choose Us?
@@ -28,7 +28,7 @@ export default function HomeComponent4() {
             </Link>
           </div>
         </div>
-        <img src="./img.png" className="md:h-100 h-60 w-20 md:w-60" />
+        <img src="./img.png" className="h-100 w-60 max-lg:hidden"/>
       </div>
     </div>
   );

@@ -17,22 +17,19 @@ export default function HomeComponent5() {
         <Carousel></Carousel>
         </div>
         <div className="flex justify-center md:pt-20 md:space-x-10 md:space-y-6 z-50">
-            <img src="/mobile1.png" className="h-40 md:h-full"></img>
-            <div className="md:px-10 flex flex-col justify-center">
-            <div className="md:text-4xl text-2xl font-semibold md:mt-20 text-center">Let's take it Forward</div>
-            <div className="md:text-6xl font-semibold mt-10 w-full text-center">Available now on Play Store</div>
-            <div className="font-light text-lg py-8 md:w-3/4 text-center md:ml-10">This is as easy as it gets! Finding Maid are just a click away. </div>
-            <div className="font-bold text-lg text-center">Download the App and get started.</div>
-            <div className="p-4">
-            <button className="bg-textPurple text-white mt-8 md:ml-28 p-4"
-  onClick={() => alert('Coming soon!')}
->
-  Download Now
-</button>
-</div>
-           
+            <img src="/mobile1.png" className="h-full max-lg:hidden"></img>
+            <div className="md:px-10 flex flex-col justify-center items-center gap-5">
+              <div className="md:text-4xl text-2xl font-semibold text-center">Let's take it Forward</div>
+              <div className="md:text-6xl font-semiboldw-full text-center">Available now on Play Store</div>
+              <div className="font-light text-lg md:w-3/4 text-center">This is as easy as it gets! Finding Maid are just a click away. </div>
+              <div className="font-bold text-lg text-center">Download the App and get started.</div>
+              <button className="bg-textPurple text-white p-4"
+                onClick={() => alert('Coming soon!')}
+              >
+                Download Now
+              </button>
             </div>
-            <img src="/mobile2.png" className="h-40 md:h-full"></img>
+            <img src="/mobile2.png" className="h-full max-lg:hidden"></img>
         </div>
       </div>
     );

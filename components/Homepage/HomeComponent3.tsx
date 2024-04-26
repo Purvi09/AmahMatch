@@ -13,10 +13,8 @@ export default function HomeComponent3() {
             </div>
           </div>
         </div>
-        <div className="md:flex py-20 md:px-20">
-        <div className="">
+        <div className="w-full pb-12 flex flex-row justify-center max-lg:flex-col">
         <Card title="House Cleaning" icon="./Home.png" content="Transforming homes with unparalleled cleanliness and convenience."id="house"></Card>
-        </div>
         <Card title="Office Cleaning" icon="./office.png" content="Experience unparalleled convenience and cleanliness with our premier office cleaning services."id="office"></Card>
         <Card title="Toilet Cleaning" icon="./toilet.png" content="Refresh your space with our top-tier washroom cleaning services."id="toilet"></Card>
         <Card title="Commercial Cleaning" icon="./house.png" content="Experience pristine cleanliness at your fingertips with our top-rated commercial cleaning."id="/"></Card>

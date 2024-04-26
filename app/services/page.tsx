@@ -11,7 +11,6 @@ export default function Services() {
             <Navbar></Navbar>
             <Heading></Heading>
             <div className="mt-16">
-        
                 <CardLeft title="Utensils Cleaning" content="At Amahmatch, we extend our commitment to cleanliness beyond just your living spaces. Our dedicated team ensures sparkling utensils, providing a hassle-free solution to your kitchen cleaning needs. With our seamless booking process, enjoy the convenience of spotless kitchens without the stress. Trust Amahmatch for reliable and efficient utensil cleaning services, tailored to meet your home's needs." image="./Rectangle1.png"></CardLeft>
             </div>
             <div id="house">
