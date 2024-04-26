@@ -11,6 +11,7 @@ body {
   --slide-size: 25%;
   --slide-spacing: 0.25rem;
   position: relative;
+  z-index: 10;
 }
 
 .embla__viewport {
@@ -34,13 +35,25 @@ body {
     --curve-height: 120px;
 
     content: "";
-    z-index: 99;
+    z-index: 20;
     display: block;
     position: absolute;
     background: white;
     width: 100%;
     height: var(--curve-height);
     border-radius: 45%;
+}
+
+@media (max-width: 768px) {
+  .embla:before, .embla:after {
+    --curve-height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .embla:before, .embla:after {
+    --curve-height: 40px;
+  }
 }
 
 .embla:before {

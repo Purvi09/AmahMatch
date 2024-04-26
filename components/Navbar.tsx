@@ -20,7 +20,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-white w-full fixed top-0 z-500">
+    <div className="bg-white w-full fixed top-0 z-50">
       <div className="flex justify-between bg-bgPurple p-6 text-textPurple md:rounded-full rounded-lg mt-8 md:mx-8">
         <a href="/" className="flex items-center">
           <img src="./logo.png" className="md:h-12 h-8 pr-2" alt="Logo" />
