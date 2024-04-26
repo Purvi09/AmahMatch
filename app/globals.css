@@ -6,43 +6,50 @@ body {
   overflow-x: hidden;
 }
 
+.embla {
+  overflow: hidden;
+  --slide-size: 25%;
+  --slide-spacing: 0.25rem;
+  position: relative;
+}
 
-swiper-container {
-  display:flex;
-  align-items: center !important;
+.embla__viewport {
+  overflow: hidden;
+}
 
-  --v-offset: 60px;
-  --curve-height: 120px;
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
 
-  &:before,
-  &:after {
+.embla__slide {
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+
+.embla:before, .embla:after {
+    --curve-height: 120px;
+
     content: "";
     z-index: 99;
     display: block;
-    background: white;
-    width: calc(100vw + 2 * var(--v-offset));
-    height: var(--curve-height);
     position: absolute;
+    background: white;
+    width: 100%;
+    height: var(--curve-height);
     border-radius: 45%;
-    left: calc(-1 * var(--v-offset));
-    right: calc(-1 * var(--v-offset));
-  }
+}
 
-  &:before {
-    width: 100%;
+.embla:before {
     top: calc(-0.7 * var(--curve-height));
-  }
-  &:after {
-    width: 100%;
+}
+
+.embla:after {
     bottom: calc(-0.7 * var(--curve-height));
-  }
 }
-
-swiper-slide {
-  width: 100%;
-  height:400px;
-}
-
 
 .main-banner-container {
   position: absolute;
@@ -69,12 +76,12 @@ swiper-slide {
 }
 
 .hover\:underline-custom:hover {
-  
   font-weight: bold;
   font-size: 110%;
   padding-bottom: 2px; /* Adjust the padding as needed */
   color: #8F264F; /* Adjust the color as needed */
 }
+
 .hover\:bg-sky-700:hover {
   background-color: #0369a1;
 }
