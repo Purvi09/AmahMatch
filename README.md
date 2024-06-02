@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AmahMatch.com Website
 
-## Getting Started
+Welcome to the AmahMatch.com website repository! This website is built using the Next.js framework with TypeScript and is designed for a company that specializes in finding and providing maid services. The website consists of several key pages: Home, About Us, How It Works, Partners, and Contact Us.
 
-First, run the development server:
+## Table of Contents
+
+- [Installation](#installation)
+- [Development](#development)
+- [Build](#build)
+- [Deploy](#deploy)
+- [Pages](#pages)
+  - [Home](#home)
+  - [About Us](#about-us)
+  - [How It Works](#how-it-works)
+  - [Partners](#partners)
+  - [Contact Us](#contact-us)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To get started with the project, clone the repository and install the necessary dependencies:
+
+```bash
+git clone https://github.com/your-username/amahmatch-website.git
+cd amahmatch-website
+npm install
+```
+
+## Development
+
+To run the development server, use the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To build the project for production, use the following command:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+This will create an optimized production build of the website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To deploy the website, you can use various hosting services such as Vercel, Netlify, or any other platform that supports Next.js.
 
-## Deploy on Vercel
+## Pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Home
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The Home page serves as the landing page for the website. It provides an overview of the services offered by AmahMatch.com and features a call-to-action to encourage visitors to learn more.
+
+### About Us
+
+The About Us page provides information about the company's history, mission, and values. It helps to build trust with potential clients by sharing the company's story and team members.
+
+### How It Works
+
+The How It Works page explains the process of finding and hiring a maid through AmahMatch.com. It outlines the steps involved and provides a clear understanding of the service.
+
+### Partners
+
+The Partners page showcases the businesses and organizations that AmahMatch.com collaborates with. This page highlights the company's network and the trust it has built within the industry.
+
+### Contact Us
+
+The Contact Us page provides visitors with various ways to get in touch with AmahMatch.com, including a contact form, email address, and phone number. It also includes the company's physical address and a map.
+
+## Technologies
+
+The AmahMatch.com website is built using the following technologies:
+
+- [Next.js](https://nextjs.org/) - A React framework for building fast, user-friendly web applications
+- [TypeScript](https://www.typescriptlang.org/) - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [CSS Modules](https://github.com/css-modules/css-modules) - A CSS file in which all class and animation names are scoped locally by default
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please open an issue or create a pull request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Thank you for using AmahMatch.com! If you have any questions, feel free to reach out via the Contact Us page.
