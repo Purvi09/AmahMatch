@@ -15,16 +15,14 @@ Welcome to the AmahMatch.com website repository! This website is built using the
   - [Partners](#partners)
   - [Contact Us](#contact-us)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
+-
 
 ## Installation
 
 To get started with the project, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/your-username/amahmatch-website.git
-cd amahmatch-website
+git clone https://github.com/Purvi09/AmahMatch.git
 npm install
 ```
 
@@ -72,8 +70,7 @@ The Partners page showcases the businesses and organizations that AmahMatch.com 
 
 ### Contact Us
 
-The Contact Us page provides visitors with various ways to get in touch with AmahMatch.com, including a contact form, email address, and phone number. It also includes the company's physical address and a map.
-
+The Contact Us page provides visitors with various ways to get in touch with AmahMatch.com, including a contact form, email address, and phone number.
 ## Technologies
 
 The AmahMatch.com website is built using the following technologies:
