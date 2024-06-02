@@ -83,20 +83,5 @@ The AmahMatch.com website is built using the following technologies:
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [CSS Modules](https://github.com/css-modules/css-modules) - A CSS file in which all class and animation names are scoped locally by default
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, please open an issue or create a pull request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a pull request
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
 
 Thank you for using AmahMatch.com! If you have any questions, feel free to reach out via the Contact Us page.
